@@ -1,0 +1,64 @@
+.rooster-lichaam {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.rooster-rij {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.rooster-rij:hover {
+    background-color: #f0f8ff;
+}
+
+.rooster-gebruiker {
+    padding: 12px 10px;
+    width: 180px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fafafa;
+    border-right: 2px solid #bebebe;
+}
+
+.rooster-gebruiker-foto {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border: 2px solid #a1a1a1;
+    box-shadow: 0 0 8px rgba(114, 114, 114, 0.3);
+}
+
+.rooster-gebruiker-naam {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #bdbdbd;
+    display: block;
+}
+
+.rooster-dag {
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 140px;
+    border-right: 1px solid #ddd;
+}
+
+.rooster-dienst {
+    background-color: #c5c5c5;
+    color: white;
+    margin: 4px 0;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(184, 184, 184, 0.4);
+}
+
+.rooster-geen-dienst {
+    color: #999;
+    font-style: italic;
+    margin: 4px 0;
+}
